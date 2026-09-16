@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="WZUePH82YlIHBQMP-yOUR-rFJ0GmPThwtKYE76Xq1rk">
+
+  <title>
+    Blog | Galina Kaleeva
+  </title>
+
+  
+    <meta name="description" content="Personal academic website of Galina Kaleeva, mathematician. Research in algebra and model theory.">
+  
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://galinakaleeva.github.io/blog/">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Favicon placeholder: replace assets/images/favicon.ico with your own -->
+  
+
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="https://galinakaleeva.github.io/feed.xml" title="Galina Kaleeva" />
+
+  <!-- SEO tag (jekyll-seo-tag) -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Blog | Galina Kaleeva</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Blog" />
+<meta name="author" content="Galina Kaleeva" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Personal academic website of Galina Kaleeva, mathematician. Research in algebra and model theory." />
+<meta property="og:description" content="Personal academic website of Galina Kaleeva, mathematician. Research in algebra and model theory." />
+<link rel="canonical" href="https://galinakaleeva.github.io/blog/" />
+<meta property="og:url" content="https://galinakaleeva.github.io/blog/" />
+<meta property="og:site_name" content="Galina Kaleeva" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Blog" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Galina Kaleeva"},"description":"Personal academic website of Galina Kaleeva, mathematician. Research in algebra and model theory.","headline":"Blog","url":"https://galinakaleeva.github.io/blog/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+  <div class="header-inner">
+
+    <a class="site-title" href="/" rel="author">
+      Galina Kaleeva
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"
+            onclick="this.setAttribute('aria-expanded',
+              this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
+              document.getElementById('site-nav').classList.toggle('is-open');">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="/"
+               >Home</a></li>
+        <li><a href="/papers/"
+               >Papers</a></li>
+        <li><a href="/teaching/"
+               >Teaching</a></li>
+        <li><a href="/talks/"
+               >Talks</a></li>
+        <li><a href="/blog/"
+               class="nav-active">Blog</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+  <main class="page-main" role="main">
+    <div class="page-wrapper">
+  <article class="page-content page-blog">
+    <header class="page-header">
+      <h1 class="page-title">Blog</h1>
+      
+    </header>
+
+    <section class="page-body">
+      
+<div class="blog-feed">
+
+  <article class="blog-post" id="example-of-two-universally-equivalent-fields-which-are-not-elementarily-equivalent">
+    <header class="blog-post-header">
+      <h2 class="blog-post-title">Example of two universally equivalent fields which are not elementarily equivalent</h2>
+      
+      <time class="blog-post-date" datetime="2026-09-01">1 September 2026</time>
+    </header>
+    <div class="blog-post-content">
+      <p>Sometimes it is useful to ask ourselves whether we do something meaningful (or, as I normally ask myself in Russian, “А не фигню ли я делаю?”). My PhD thesis is dedicated to the universal equivalence of linear groups over some kinds of rings (fields and local (associative unital) rings with $1/2$). The elementary equivalence of these structures was studied sixty years ago; the classical result belongs to A. I. Mal’cev: linear groups $\mathrm{G}_n(K)$ and $\mathrm{G}_m(L)$, where $\mathrm{G}=\mathrm{GL}, \mathrm{SL}, \mathrm{PGL}, \mathrm{PSL}$, $n, m \geqslant 3$, $K$ and $L$ are fields of characteristic $0$, are elementarily equivalent iff $m=n$ and fields $K$ and $L$ are elementarily equivalent\footnote{A. I. Mal’cev, “On elementary properties of linear groups,” Probl. Mat. Mech., 110–132 (1961).}. So the natural question is: does universal equivalence of these particular structures — linear groups — contribute anything new to the question under consideration, or is it just the same as elementary equivalence? In other words, keeping in mind Mal’cev’s theorem, {\bf are there any universally equivalent but not elementarily equivalent fields}?</p>
+
+<p>And the answer is yes: $\overline{\mathbb Q}\ueq \overline{\mathbb Q}(t),$ but $\overline{\mathbb Q}\not\eeq \overline{\mathbb Q}(t)$.</p>
+
+<p>Firstly, show that these fields are not elementarily equivalent. Indeed, $\overline{\mathbb Q}$ is algebraically closed, whereas $\overline{\mathbb Q}(t)$ is not. For example, we cannot extract a square root of $t$, and this can be expressed as a first-order formula:</p>
+
+\[\forall x\exists y (y^2 = x).\]
+
+<p>(If we could, then consider a square root $\frac{p(t)}{q(t)}$ of $t$: $\left(\frac{p(t)}{q(t)}\right)^2 = t$. Then $p(t)^2 = tq(t)^2$, and $2\deg p(t) = 1 + 2\deg q(t)$, which is impossible.)</p>
+
+<p>To show that these fields are universally equivalent, consider the following extension tower:</p>
+
+\[\overline{\mathbb Q}\subset\overline{\mathbb Q}(t)\subset\overline{\overline{\mathbb Q}(t)}.\]
+
+<p>Here $\overline{\mathbb Q}\eeq  \overline{\,\overline{\mathbb Q}(t)\,}$ as algebraically closed fields of characteristic $0$ (a general fact). And the existential theories are embedded like this:</p>
+
+\[\Th_{\exists}\!\left(\overline{\mathbb Q}\right)
+\subseteq
+\Th_{\exists}\!\left(\overline{\mathbb Q}(t)\right)
+\subseteq
+\Th_{\exists}\!\left(\overline{\,\overline{\mathbb Q}(t)\,}\right),\]
+
+<p>where $\Th_{\exists}\left(\overline{\mathbb Q}\right) = \Th_{\exists}\left(\overline{\,\overline{\mathbb Q}(t)\,}\right)$, because their full first-order theories are the same. Hence, all existential theories coincide, and $\overline{\mathbb Q}\exeq \overline{\mathbb Q}(t)$, which is equivalent to $\overline{\mathbb Q}\ueq \overline{\mathbb Q}(t)$.</p>
+
+    </div>
+  </article>
+
+</div>
+
+
+    </section>
+  </article>
+</div>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <p>
+      &copy; 2026 Galina Kaleeva.
+      &thinsp;&mdash;&thinsp;
+      PhD candidate awaiting viva.
+    </p>
+  </div>
+</footer>
+
+  
+    <script src="/assets/js/blog-footnotes.js"></script>
+  
+  
+<!-- MathJax v3 – renders LaTeX in pages. Disable per-page with "math: false" in front matter. -->
+<script>
+  MathJax = {
+    tex: {
+      inlineMath:  [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      tags: 'ams',
+      packages: {'[+]': ['ams', 'boldsymbol']},
+      macros: {
+        ueq: ['\\mathrel{\\equiv_{\\forall}}', 0],
+        exeq: ['\\mathrel{\\equiv_{\\exists}}', 0],
+        eeq: ['\\mathrel{\\equiv}', 0],
+        Th: ['\\operatorname{Th}', 0]
+      }
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+        id="MathJax-script" async></script>
+
+
+</body>
+</html>
